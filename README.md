@@ -1,12 +1,16 @@
-# dts-announcement-bar
+# Dawn TailWindCSS Starter Component - Announcement Bar
 
 https://user-images.githubusercontent.com/75811975/162091545-1cb0e8a6-ec42-4595-9d8d-9a92e17952c7.mp4
 
 Extension of Shopify's Dawn theme announcement bar. Carousel arrows appear when more than 1 announcement bar block is added. Users are able to toggle through multiple announcement bars.
 
-1. In layout > theme.liquid, replace `{% section 'announcement-bar' %}` with `{% section 'announcement-bar-trellis' %}`
+## How to Add to Your Theme
 
-2. In config > settings_data.json, replace the `announcement-bar` object with
+1. Add an `announcement-bar-trellis.liquid` file to the `sections` directory and copy in the file's code from this repo.
+
+2. In layout > theme.liquid, replace `{% section 'announcement-bar' %}` with `{% section 'announcement-bar-trellis' %}`
+
+3. In config > settings_data.json, replace the `announcement-bar` object with
 
 ```...
 "announcement-bar-trellis": {
@@ -28,7 +32,7 @@ Extension of Shopify's Dawn theme announcement bar. Carousel arrows appear when 
 ...
 ```
 
-3. In locales > en.default.schema.json, add the following object after the `announcement-bar` object:
+4. In locales > en.default.schema.json, add the following object after the `announcement-bar` object:
 
 ```...
 "announcement-bar-trellis": {
@@ -39,6 +43,24 @@ Extension of Shopify's Dawn theme announcement bar. Carousel arrows appear when 
       "settings": {
         "text": {
           "label": "Text"
+        },
+        "color_scheme": {
+          "label": "Color scheme",
+          "options__1": {
+            "label": "Background 1"
+          },
+          "options__2": {
+            "label": "Background 2"
+          },
+          "options__3": {
+            "label": "Inverse"
+          },
+          "options__4": {
+            "label": "Accent 1"
+          },
+          "options__5": {
+            "label": "Accent 2"
+          }
         },
         "link": {
           "label": "Link"
