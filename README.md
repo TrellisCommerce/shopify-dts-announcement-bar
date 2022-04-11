@@ -7,6 +7,28 @@ Extension of Shopify's Dawn theme announcement bar. Carousel arrows appear when 
 ## How to Add to Your Theme
 
 1. Add an `announcement-bar-trellis.liquid` file to the `sections` directory and copy in the file's code from this repo.
+- If you are not using the [dawn-tailwind-starter-base](https://github.com/TrellisCommerce/dawn-tailwind-starter-base) as your theme, you will need to add the following styles to your liquid file:
+```
+.twcss-absolute {
+  position: absolute;
+}
+
+.twcss-relative {
+  position: relative;
+}
+
+.twcss-left-0 {
+  left: 0px;
+}
+
+.twcss-top-0 {
+  top: 0px;
+}
+
+.twcss-right-0 {
+  right: 0px;
+}
+```
 
 2. In layout > theme.liquid, replace `{% section 'announcement-bar' %}` with `{% section 'announcement-bar-trellis' %}`
 
