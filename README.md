@@ -1,3 +1,5 @@
+Brought to you and maintained by [Trellis Commerce](https://trellis.co/) - A full-service eCommerce agency based in Boston, MA
+
 # Dawn TailWindCSS Starter Component - Announcement Bar
 
 https://user-images.githubusercontent.com/75811975/162091545-1cb0e8a6-ec42-4595-9d8d-9a92e17952c7.mp4
