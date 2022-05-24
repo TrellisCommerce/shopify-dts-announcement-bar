@@ -2,7 +2,7 @@ Brought to you and maintained by [Trellis Commerce](https://trellis.co/) - A ful
 
 # Dawn TailWindCSS Starter Component - Announcement Bar
 
-https://user-images.githubusercontent.com/75811975/162091545-1cb0e8a6-ec42-4595-9d8d-9a92e17952c7.mp4
+![A computer mouse cursor moves to the top right of the browser screen. There is a click on a right pointing chevron icon on the right side of the announcement bar element. This triggers the announcement message with a white background to slide to the left and reveal another message with a blue background. The mouse then clicks on a left pointing chevron icon on the left side of the blue background message that has appeared with the new message. The click triggers the message with a blue background to slide back to the right, revealing the initial message with a white background.](https://user-images.githubusercontent.com/75811975/170133373-fc02d54d-b771-4bc7-8f77-0a985207cdc1.gif)
 
 Extension of Shopify's Dawn theme announcement bar. Carousel arrows appear when more than 1 announcement bar block is added. Users are able to toggle through multiple announcement bars.
 
